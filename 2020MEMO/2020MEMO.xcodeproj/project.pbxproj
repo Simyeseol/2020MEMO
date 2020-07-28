@@ -14,6 +14,7 @@
 		EE93F84524CFBCCE00775ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE93F84424CFBCCE00775ADB /* Assets.xcassets */; };
 		EE93F84824CFBCCE00775ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE93F84624CFBCCE00775ADB /* LaunchScreen.storyboard */; };
 		EE93F85124CFF18900775ADB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93F85024CFF18900775ADB /* Model.swift */; };
+		EE93F85324D0021F00775ADB /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93F85224D0021F00775ADB /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EE93F84724CFBCCE00775ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE93F84924CFBCCE00775ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE93F85024CFF18900775ADB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EE93F85224D0021F00775ADB /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				EE93F84624CFBCCE00775ADB /* LaunchScreen.storyboard */,
 				EE93F84924CFBCCE00775ADB /* Info.plist */,
 				EE93F84124CFBCCD00775ADB /* _020MEMO.xcdatamodeld */,
+				EE93F85224D0021F00775ADB /* MemoListTableViewController.swift */,
 			);
 			path = 2020MEMO;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				EE93F84324CFBCCD00775ADB /* _020MEMO.xcdatamodeld in Sources */,
 				EE93F83924CFBCCD00775ADB /* AppDelegate.swift in Sources */,
+				EE93F85324D0021F00775ADB /* MemoListTableViewController.swift in Sources */,
 				EE93F83B24CFBCCD00775ADB /* SceneDelegate.swift in Sources */,
 				EE93F85124CFF18900775ADB /* Model.swift in Sources */,
 			);
