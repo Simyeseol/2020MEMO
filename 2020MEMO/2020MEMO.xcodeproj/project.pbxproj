@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE6024AB24D3A8AC0000DAB2 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6024AA24D3A8AC0000DAB2 /* ComposeViewController.swift */; };
+		EE6024AD24D476CE0000DAB2 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6024AC24D476CE0000DAB2 /* UIViewController+Alert.swift */; };
 		EE93F83924CFBCCD00775ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93F83824CFBCCD00775ADB /* AppDelegate.swift */; };
 		EE93F83B24CFBCCD00775ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE93F83A24CFBCCD00775ADB /* SceneDelegate.swift */; };
 		EE93F84024CFBCCD00775ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE93F83E24CFBCCD00775ADB /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE6024AA24D3A8AC0000DAB2 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		EE6024AC24D476CE0000DAB2 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		EE93F83524CFBCCD00775ADB /* 2020MEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2020MEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE93F83824CFBCCD00775ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE93F83A24CFBCCD00775ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +69,12 @@
 				EE93F83A24CFBCCD00775ADB /* SceneDelegate.swift */,
 				EE93F83E24CFBCCD00775ADB /* Main.storyboard */,
 				EE93F84424CFBCCE00775ADB /* Assets.xcassets */,
-				EE93F84624CFBCCE00775ADB /* LaunchScreen.storyboard */,
 				EE93F84924CFBCCE00775ADB /* Info.plist */,
+				EE93F84624CFBCCE00775ADB /* LaunchScreen.storyboard */,
 				EE93F84124CFBCCD00775ADB /* _020MEMO.xcdatamodeld */,
 				EE93F85224D0021F00775ADB /* MemoListTableViewController.swift */,
+				EE6024AA24D3A8AC0000DAB2 /* ComposeViewController.swift */,
+				EE6024AC24D476CE0000DAB2 /* UIViewController+Alert.swift */,
 			);
 			path = 2020MEMO;
 			sourceTree = "<group>";
@@ -155,8 +161,10 @@
 				EE93F84324CFBCCD00775ADB /* _020MEMO.xcdatamodeld in Sources */,
 				EE93F83924CFBCCD00775ADB /* AppDelegate.swift in Sources */,
 				EE93F85324D0021F00775ADB /* MemoListTableViewController.swift in Sources */,
+				EE6024AB24D3A8AC0000DAB2 /* ComposeViewController.swift in Sources */,
 				EE93F83B24CFBCCD00775ADB /* SceneDelegate.swift in Sources */,
 				EE93F85124CFF18900775ADB /* Model.swift in Sources */,
+				EE6024AD24D476CE0000DAB2 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

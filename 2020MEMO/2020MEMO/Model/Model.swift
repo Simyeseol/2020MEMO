@@ -18,6 +18,7 @@ class Memo {
         insertDate = Date()
     }
 
+    
 static var dummyMemoList = [
     Memo(content: "Lorem Ipsum"),
     Memo(content: "💗" )
