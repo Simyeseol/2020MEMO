@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE04EF0E24D666B8007E6A96 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE04EF0D24D666B8007E6A96 /* DataManager.swift */; };
 		EE6024AB24D3A8AC0000DAB2 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6024AA24D3A8AC0000DAB2 /* ComposeViewController.swift */; };
 		EE6024AD24D476CE0000DAB2 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6024AC24D476CE0000DAB2 /* UIViewController+Alert.swift */; };
 		EE6024AF24D649610000DAB2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6024AE24D649610000DAB2 /* DetailViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE04EF0D24D666B8007E6A96 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EE6024AA24D3A8AC0000DAB2 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		EE6024AC24D476CE0000DAB2 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		EE6024AE24D649610000DAB2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE04EF0C24D66687007E6A96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE04EF0D24D666B8007E6A96 /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		EE93F82C24CFBCCD00775ADB = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		EE93F83724CFBCCD00775ADB /* 2020MEMO */ = {
 			isa = PBXGroup;
 			children = (
+				EE04EF0C24D66687007E6A96 /* Data */,
 				EE93F84F24CFF16700775ADB /* Model */,
 				EE93F83824CFBCCD00775ADB /* AppDelegate.swift */,
 				EE93F83A24CFBCCD00775ADB /* SceneDelegate.swift */,
@@ -168,6 +179,7 @@
 				EE93F83B24CFBCCD00775ADB /* SceneDelegate.swift in Sources */,
 				EE93F85124CFF18900775ADB /* Model.swift in Sources */,
 				EE6024AD24D476CE0000DAB2 /* UIViewController+Alert.swift in Sources */,
+				EE04EF0E24D666B8007E6A96 /* DataManager.swift in Sources */,
 				EE6024AF24D649610000DAB2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
