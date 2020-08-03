@@ -49,6 +49,12 @@ class DataManager {
         saveContext()
     }
     
+    func deleteMemo(_ memo:Memo?) {
+        if let memo = memo {
+            mainContentxt.delete(memo)
+            saveContext()
+        }
+    }
     
     
     

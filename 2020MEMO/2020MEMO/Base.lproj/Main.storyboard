@@ -140,6 +140,13 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cr-MT-cVm">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
+                                    <barButtonItem title="Item" systemItem="trash" id="I77-zC-DLL">
+                                        <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="deleteMemo:" destination="8ns-DU-wU7" id="1sw-Ex-YeD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qmk-6Y-SUJ"/>
                                     <barButtonItem title="Item" systemItem="compose" id="Muc-EQ-dsj">
                                         <connections>
                                             <segue destination="b47-7H-Xn7" kind="presentation" id="04b-1h-JnQ"/>
