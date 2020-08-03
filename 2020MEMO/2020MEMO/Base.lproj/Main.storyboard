@@ -140,7 +140,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cr-MT-cVm">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="Muc-EQ-dsj"/>
+                                    <barButtonItem title="Item" systemItem="compose" id="Muc-EQ-dsj">
+                                        <connections>
+                                            <segue destination="b47-7H-Xn7" kind="presentation" id="04b-1h-JnQ"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kQH-pz-veq">
@@ -200,10 +204,16 @@
                         <viewLayoutGuide key="safeArea" id="IAa-8B-v42"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="sqU-V0-eBq"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="kQH-pz-veq" id="Zsi-Z8-IN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pak-MK-SR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476.81159420289856" y="641.51785714285711"/>
+            <point key="canvasLocation" x="42" y="686"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="04b-1h-JnQ"/>
+    </inferredMetricsTieBreakers>
 </document>
